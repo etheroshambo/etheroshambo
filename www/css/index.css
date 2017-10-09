@@ -67,3 +67,16 @@ footer {
     width: 50%; /* 6 columns */
   }
 }
+
+
+.fa-rotate-90-and-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1, mirror=1)";
+  -webkit-transform: scale(-1, 1) rotate(90deg);
+  -ms-transform: scale(-1, 1) rotate(90deg);
+  transform: scale(-1, 1) rotate(90deg);
+}
+
+
+.jumbotron p {
+  font-size: 36pt; 
+}
